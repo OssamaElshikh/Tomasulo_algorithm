@@ -1,0 +1,2217 @@
+CLOCK: 1
+ 
+
+Instructions Queue: 
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction LD  F0  31 issued at clock cycle 1
+
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -1.0 L1
+F1 2.0 null
+F2 2.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 2
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction LD  F1  12 issued at clock cycle 2
+
+Instruction L1 starts execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   1      12
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -1.0 L1
+F1 2.0 L2
+F2 2.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 3
+ 
+
+Instructions Queue: 
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction MUL  F0  F0  F10 issued at clock cycle 3
+
+Instruction L1 finishes execution
+Instruction L2 starts execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  0.0   -1.0   L1   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   1      12
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -1.0 M1
+F1 2.0 L2
+F2 2.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 4
+ 
+
+Instructions Queue: 
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction MUL  F1  F1  F10 issued at clock cycle 4
+
+Instruction L2 finishes execution
+
+Write back: L1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  31.0   -1.0   null   null 
+ M2   1    MUL  0.0   -1.0   L2   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   1      12
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -1.0 M1
+F1 2.0 M2
+F2 2.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 5
+ 
+
+Instructions Queue: 
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction ADD  F2  F0  F1 issued at clock cycle 5
+
+Instruction M1 starts execution
+
+Write back: L2
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  0.0   0.0   M1   M2 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  31.0   -1.0   null   null 
+ M2   1    MUL  12.0   -1.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -1.0 M1
+F1 2.0 M2
+F2 2.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 6
+ 
+
+Instructions Queue: 
+ADD  F10  F10  F10
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction ADD  F10  F10  F10 issued at clock cycle 6
+
+Instruction M1 finishes execution
+Instruction M2 starts execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  0.0   0.0   M1   M2 
+ A2   1    ADD  -1.0   -1.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  31.0   -1.0   null   null 
+ M2   1    MUL  12.0   -1.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -1.0 M1
+F1 2.0 M2
+F2 2.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 A2
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 7
+ 
+
+Instructions Queue: 
+ST  F2  12
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction ST  F2  12 issued at clock cycle 7
+
+Instruction A2 starts execution
+Instruction M2 finishes execution
+
+Write back: M1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -31.0   0.0   null   M2 
+ A2   1    ADD  -1.0   -1.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   1    MUL  12.0   -1.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -31.0 null
+F1 2.0 M2
+F2 2.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 A2
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 8
+ 
+
+Instructions Queue: 
+LD  F0  31
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction LD  F0  31 issued at clock cycle 8
+
+Instruction A2 finishes execution
+
+Write back: M2
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -31.0   -12.0   null   null 
+ A2   1    ADD  -1.0   -1.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -31.0 L1
+F1 -12.0 null
+F2 2.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -1.0 A2
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 9
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+
+Instruction A1 starts execution
+Instruction L1 starts execution
+
+Write back: A2
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -31.0   -12.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -31.0 L1
+F1 -12.0 null
+F2 2.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 10
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction A1 finishes execution
+Instruction L1 finishes execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -31.0   -12.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -31.0 L1
+F1 -12.0 null
+F2 2.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 11
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+
+Write back: A1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      31
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        -43.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -31.0 L1
+F1 -12.0 null
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 12
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction S1 starts execution
+
+Write back: L1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        -43.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 null
+F1 -12.0 null
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 13
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction S1 finishes execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        -43.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 null
+F1 -12.0 null
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 12.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 14
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+
+Write back: S1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 null
+F1 -12.0 null
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 15
+ 
+
+Instructions Queue: 
+LD  F1  12
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction LD  F1  12 issued at clock cycle 15
+
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      12
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 null
+F1 -12.0 L1
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 16
+ 
+
+Instructions Queue: 
+MUL  F0  F0  F10
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction MUL  F0  F0  F10 issued at clock cycle 16
+
+Instruction L1 starts execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  31.0   -2.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   1      12
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 M1
+F1 -12.0 L1
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 17
+ 
+
+Instructions Queue: 
+MUL  F1  F1  F10
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction MUL  F1  F1  F10 issued at clock cycle 17
+
+Instruction M1 starts execution
+Instruction L1 finishes execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  31.0   -2.0   null   null 
+ M2   1    MUL  0.0   -2.0   L1   null 
+
+Name Busy   Address
+ L1   1      12
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 M1
+F1 -12.0 M2
+F2 -43.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 18
+ 
+
+Instructions Queue: 
+ADD  F2  F0  F1
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction ADD  F2  F0  F1 issued at clock cycle 18
+
+Instruction M1 finishes execution
+
+Write back: L1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  0.0   0.0   M1   M2 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   1    MUL  31.0   -2.0   null   null 
+ M2   1    MUL  -43.0   -2.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 31.0 M1
+F1 -12.0 M2
+F2 -43.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 19
+ 
+
+Instructions Queue: 
+ADD  F10  F10  F10
+ST  F2  12
+
+Instruction ADD  F10  F10  F10 issued at clock cycle 19
+
+Instruction M2 starts execution
+
+Write back: M1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -62.0   0.0   null   M2 
+ A2   1    ADD  -2.0   -2.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   1    MUL  -43.0   -2.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 -12.0 M2
+F2 -43.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 A2
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 20
+ 
+
+Instructions Queue: 
+ST  F2  12
+
+Instruction ST  F2  12 issued at clock cycle 20
+
+Instruction A2 starts execution
+Instruction M2 finishes execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -62.0   0.0   null   M2 
+ A2   1    ADD  -2.0   -2.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   1    MUL  -43.0   -2.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 -12.0 M2
+F2 -43.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 A2
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 21
+ 
+
+Instructions Queue: 
+
+
+Instruction A2 finishes execution
+
+Write back: M2
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -62.0   86.0   null   null 
+ A2   1    ADD  -2.0   -2.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 -43.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -2.0 A2
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 22
+ 
+
+Instructions Queue: 
+
+
+Instruction A1 starts execution
+
+Write back: A2
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -62.0   86.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 -43.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -4.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 23
+ 
+
+Instructions Queue: 
+
+
+Instruction A1 finishes execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   1    ADD  -62.0   86.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        0.0     A1
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 -43.0 A1
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -4.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 24
+ 
+
+Instructions Queue: 
+
+
+
+Write back: A1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        24.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 24.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -4.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 25
+ 
+
+Instructions Queue: 
+
+
+Instruction S1 starts execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        24.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 24.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -4.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 26
+ 
+
+Instructions Queue: 
+
+
+Instruction S1 finishes execution
+
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   1      12        24.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 24.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -4.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = -43.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
+CLOCK: 27
+ 
+
+Instructions Queue: 
+
+
+
+Write back: S1
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ A1   0    null  0.0   0.0   null   null 
+ A2   0    null  0.0   0.0   null   null 
+ A3   0    null  0.0   0.0   null   null 
+
+Name Busy   Op   Vj    Vk     Qj      Qk
+ M1   0    null  0.0   0.0   null   null 
+ M2   0    null  0.0   0.0   null   null 
+
+Name Busy   Address
+ L1   0      -1
+ L2   0      -1
+ L3   0      -1
+
+Name Busy   Address   Value   Qi
+ S1   0      -1        0.0     null
+ S2   0      -1        0.0     null
+ S3   0      -1        0.0     null
+
+F0 -62.0 null
+F1 86.0 null
+F2 24.0 null
+F3 -1.0 null
+F4 -1.0 null
+F5 -1.0 null
+F6 -1.0 null
+F7 -1.0 null
+F8 6.0 null
+F9 3.0 null
+F10 -4.0 null
+F11 -1.0 null
+
+M[0] = 0.0
+M[1] = 1.0
+M[2] = 2.0
+M[3] = 3.0
+M[4] = 4.0
+M[5] = 5.0
+M[6] = 6.0
+M[7] = 7.0
+M[8] = 8.0
+M[9] = 9.0
+M[10] = 10.0
+M[11] = 11.0
+M[12] = 24.0
+M[13] = 13.0
+M[14] = 14.0
+M[15] = 15.0
+M[16] = 16.0
+M[17] = 17.0
+M[18] = 18.0
+M[19] = 19.0
+M[20] = 20.0
+M[21] = 21.0
+M[22] = 22.0
+M[23] = 23.0
+M[24] = 24.0
+M[25] = 25.0
+M[26] = 26.0
+M[27] = 27.0
+M[28] = 28.0
+M[29] = 29.0
+M[30] = 30.0
+M[31] = 31.0
+
+
+
